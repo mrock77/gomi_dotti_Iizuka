@@ -845,20 +845,20 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <imageView tag="3" contentMode="scaleToFill" image="funen.png" translatesAutoresizingMaskIntoConstraints="NO" id="tYr-HQ-86B">
-                                <rect key="frame" x="16" y="111" width="142" height="53.5"/>
+                            <imageView tag="3" contentMode="scaleToFill" misplaced="YES" image="funen.png" translatesAutoresizingMaskIntoConstraints="NO" id="tYr-HQ-86B">
+                                <rect key="frame" x="16" y="111" width="142.5" height="53.5"/>
                             </imageView>
                             <imageView tag="5" contentMode="scaleToFill" image="yugai.png" translatesAutoresizingMaskIntoConstraints="NO" id="WCe-ys-v6q">
-                                <rect key="frame" x="16" y="168" width="141.5" height="53"/>
+                                <rect key="frame" x="16" y="168" width="142" height="53"/>
                             </imageView>
                             <imageView tag="6" contentMode="scaleToFill" image="koshifurununo.png" translatesAutoresizingMaskIntoConstraints="NO" id="NIV-Yh-tzg">
                                 <rect key="frame" x="162.5" y="168" width="141.5" height="53"/>
                             </imageView>
-                            <imageView tag="7" contentMode="scaleToFill" image="haiyu.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fhg-fc-Zx4">
-                                <rect key="frame" x="16" y="227" width="142" height="53"/>
+                            <imageView tag="7" contentMode="scaleToFill" misplaced="YES" image="haiyu.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fhg-fc-Zx4">
+                                <rect key="frame" x="16" y="227" width="142.5" height="53"/>
                             </imageView>
-                            <imageView tag="8" contentMode="scaleToFill" image="sodai.png" translatesAutoresizingMaskIntoConstraints="NO" id="f0D-cf-6aY">
-                                <rect key="frame" x="162" y="227" width="141.5" height="53"/>
+                            <imageView tag="8" contentMode="scaleToFill" misplaced="YES" image="sodai.png" translatesAutoresizingMaskIntoConstraints="NO" id="f0D-cf-6aY">
+                                <rect key="frame" x="162.5" y="227" width="141.5" height="53"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="01/20(火)" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="LxF-Ic-JFO">
                                 <rect key="frame" x="21" y="463" width="283" height="50"/>
@@ -869,8 +869,8 @@
                                 <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView tag="4" contentMode="scaleToFill" image="plastic.png" translatesAutoresizingMaskIntoConstraints="NO" id="3DM-jt-r2p">
-                                <rect key="frame" x="163" y="111" width="141.5" height="53.5"/>
+                            <imageView tag="4" contentMode="scaleToFill" misplaced="YES" image="plastic.png" translatesAutoresizingMaskIntoConstraints="NO" id="3DM-jt-r2p">
+                                <rect key="frame" x="163.5" y="111" width="141.5" height="53.5"/>
                             </imageView>
                             <imageView tag="2" contentMode="scaleToFill" image="canbin.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pbr-Wx-dVt">
                                 <rect key="frame" x="162.5" y="54" width="141.5" height="53"/>
@@ -963,10 +963,10 @@ CPCfk57poLTnlLA
                                 </connections>
                             </button>
                             <imageView tag="1" contentMode="scaleToFill" image="kanen.png" translatesAutoresizingMaskIntoConstraints="NO" id="aZU-Os-XNi">
-                                <rect key="frame" x="16" y="54" width="141.5" height="53"/>
+                                <rect key="frame" x="16" y="54" width="142" height="53"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="自宅前" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Lw3-FO-vL3">
-                                <rect key="frame" x="206" y="463" width="93" height="50"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="自宅前" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="Lw3-FO-vL3">
+                                <rect key="frame" x="209" y="463" width="93" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="bOM-0i-dsE"/>
                                 </constraints>
@@ -1079,7 +1079,7 @@ CPCfk57luoTlhoU
                             <constraint firstItem="Pbr-Wx-dVt" firstAttribute="height" secondItem="aZU-Os-XNi" secondAttribute="height" id="Jfh-pP-xhP"/>
                             <constraint firstItem="Pbr-Wx-dVt" firstAttribute="height" secondItem="Fhg-fc-Zx4" secondAttribute="height" id="Ljo-AF-zd1"/>
                             <constraint firstItem="Z2t-wp-edm" firstAttribute="top" secondItem="9kA-q3-1I5" secondAttribute="bottom" constant="5" id="LsX-I6-reR"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Lw3-FO-vL3" secondAttribute="trailing" constant="5" id="Lva-YD-JKO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Lw3-FO-vL3" secondAttribute="trailing" constant="2" id="Lva-YD-JKO"/>
                             <constraint firstItem="aZU-Os-XNi" firstAttribute="top" secondItem="imK-vP-Abn" secondAttribute="bottom" constant="2" id="MDH-o6-xQf"/>
                             <constraint firstItem="Pbr-Wx-dVt" firstAttribute="width" secondItem="aZU-Os-XNi" secondAttribute="width" id="NDC-ga-wmP"/>
                             <constraint firstItem="tYr-HQ-86B" firstAttribute="leading" secondItem="WCe-ys-v6q" secondAttribute="leading" id="OWs-qQ-O4r"/>
