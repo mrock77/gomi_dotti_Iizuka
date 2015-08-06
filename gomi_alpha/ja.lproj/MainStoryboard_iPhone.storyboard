@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="IUk-Ic-rlg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="IUk-Ic-rlg">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--大型ごみ-->
+        <!--廃食用油-->
         <scene sceneID="RcW-Jz-k7j">
             <objects>
-                <viewController id="I1z-5V-KVE" sceneMemberID="viewController">
+                <viewController title="廃食用油" id="I1z-5V-KVE" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qBy-55-cZi"/>
                         <viewControllerLayoutGuide type="bottom" id="Urf-6z-5rP"/>
@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="oogata-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="43T-u1-1Wg">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-haiyu.png" translatesAutoresizingMaskIntoConstraints="NO" id="43T-u1-1Wg">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -30,16 +30,16 @@
                             <constraint firstItem="43T-u1-1Wg" firstAttribute="trailing" secondItem="JyU-F2-06l" secondAttribute="trailing" id="VZr-3P-1mE"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="大型ごみ" id="J5H-bP-b2x" userLabel="Tab Bar Item - 大型ごみ"/>
+                    <tabBarItem key="tabBarItem" title="廃食用油" id="J5H-bP-b2x" userLabel="廃食用油"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vck-ZT-Bp2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-295" y="1278"/>
         </scene>
-        <!--可燃ごみ-->
+        <!--資源プラスチック（ペットボトル・白色トレー）-->
         <scene sceneID="agG-rM-pCL">
             <objects>
-                <viewController title="可燃ごみ" id="41v-KM-NLD" sceneMemberID="viewController">
+                <viewController title="資源プラスチック（ペットボトル・白色トレー）" id="41v-KM-NLD" userLabel="資源プラスチック（ペットボトル・白色トレー）" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Oon-KI-3OT"/>
                         <viewControllerLayoutGuide type="bottom" id="e7f-Md-Hsh"/>
@@ -48,7 +48,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="kanen-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="oif-IV-cyf">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-plastic.png" translatesAutoresizingMaskIntoConstraints="NO" id="oif-IV-cyf">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -60,16 +60,16 @@
                             <constraint firstItem="oif-IV-cyf" firstAttribute="top" secondItem="Oon-KI-3OT" secondAttribute="bottom" id="scY-uz-fXf"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="可燃ごみ" id="tfg-TF-KgC"/>
+                    <tabBarItem key="tabBarItem" title="資源プラスチック（ペットボトル・白色トレー）" id="tfg-TF-KgC" userLabel="資源プラスチック（ペットボトル・白色トレー）"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uur-zs-0of" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-295" y="615"/>
         </scene>
-        <!--不燃物・本・商品プラ-->
+        <!--古紙・古布-->
         <scene sceneID="hRE-wn-l8N">
             <objects>
-                <viewController id="6NO-GF-GJO" sceneMemberID="viewController">
+                <viewController title="古紙・古布" id="6NO-GF-GJO" userLabel="古紙・古布" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qsh-5K-IBB"/>
                         <viewControllerLayoutGuide type="bottom" id="FQA-hX-GY2"/>
@@ -78,7 +78,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="funen-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="nby-bC-DOP">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-koshifurununo.png" translatesAutoresizingMaskIntoConstraints="NO" id="nby-bC-DOP">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -90,16 +90,16 @@
                             <constraint firstItem="nby-bC-DOP" firstAttribute="leading" secondItem="sJm-xM-oSB" secondAttribute="leading" id="wXb-R6-SZv"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="不燃物・本・商品プラ" id="kDi-sf-lZK"/>
+                    <tabBarItem key="tabBarItem" title="古紙・古布" id="kDi-sf-lZK" userLabel="古紙・古布"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u17-bm-HNR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="56" y="615"/>
         </scene>
-        <!--資源(戸別収集対象品目)-->
+        <!--有害ごみ-->
         <scene sceneID="2QD-3M-lA8">
             <objects>
-                <viewController id="orH-rj-gEf" sceneMemberID="viewController">
+                <viewController title="有害ごみ" id="orH-rj-gEf" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HK2-yG-oh7"/>
                         <viewControllerLayoutGuide type="bottom" id="qdg-NY-mSt"/>
@@ -108,7 +108,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="shigen-kobetsu-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="zOW-aN-siG">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-yugai.png" translatesAutoresizingMaskIntoConstraints="NO" id="zOW-aN-siG">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -120,16 +120,16 @@
                             <constraint firstItem="zOW-aN-siG" firstAttribute="top" secondItem="HK2-yG-oh7" secondAttribute="bottom" id="vbF-Nh-OoK"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="資源(戸別収集対象品目)" id="Ahc-r4-U4a"/>
+                    <tabBarItem key="tabBarItem" title="有害ごみ" id="Ahc-r4-U4a"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pZO-Nz-lQY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="410" y="615"/>
         </scene>
-        <!--資源(その他-集積所対象品目)-->
+        <!--空きかん・空きびん-->
         <scene sceneID="eUS-3I-udW">
             <objects>
-                <viewController id="vIX-cI-w01" sceneMemberID="viewController">
+                <viewController title="空きかん・空きびん" id="vIX-cI-w01" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="47E-ib-Sbh"/>
                         <viewControllerLayoutGuide type="bottom" id="Rt9-NG-L8T"/>
@@ -138,7 +138,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="shigen-sonota-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ngs-Aa-LNF">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-canbin.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ngs-Aa-LNF">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -150,16 +150,16 @@
                             <constraint firstItem="Ngs-Aa-LNF" firstAttribute="leading" secondItem="vlQ-x6-9LX" secondAttribute="leading" id="ktL-B0-A9T"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="資源(その他-集積所対象品目)" id="Waw-rE-cZf"/>
+                    <tabBarItem key="tabBarItem" title="空きかん・空きびん" id="Waw-rE-cZf" userLabel="空きかん・空きびん"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6P7-vi-ILY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="761" y="615"/>
         </scene>
-        <!--プラスチック製容器包装-->
+        <!--不燃ごみ-->
         <scene sceneID="Xuw-QW-ljs">
             <objects>
-                <viewController id="vQy-RL-D1Z" sceneMemberID="viewController">
+                <viewController title="不燃ごみ" id="vQy-RL-D1Z" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ygr-XS-TjG"/>
                         <viewControllerLayoutGuide type="bottom" id="RrC-oK-Zef"/>
@@ -168,7 +168,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="plastic-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="XmO-YB-288">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-funen.png" translatesAutoresizingMaskIntoConstraints="NO" id="XmO-YB-288">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -180,16 +180,16 @@
                             <constraint firstItem="XmO-YB-288" firstAttribute="top" secondItem="Ygr-XS-TjG" secondAttribute="bottom" id="wzx-Lq-IBK"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="プラスチック製容器包装" id="L1H-bX-xnd"/>
+                    <tabBarItem key="tabBarItem" title="不燃ごみ" id="L1H-bX-xnd" userLabel="不燃ごみ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fvS-tm-Z7L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1097" y="615"/>
         </scene>
-        <!--特別大型ごみ-->
+        <!--粗大ごみ、臨時ごみ・引越し等の一時多量ごみ-->
         <scene sceneID="fu2-Vm-wF0">
             <objects>
-                <viewController id="uN5-FE-ur4" sceneMemberID="viewController">
+                <viewController title="粗大ごみ、臨時ごみ・引越し等の一時多量ごみ" id="uN5-FE-ur4" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GEc-me-Tj6"/>
                         <viewControllerLayoutGuide type="bottom" id="Bg5-iA-9Bw"/>
@@ -198,7 +198,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="special-oogata-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jit-nl-Rso">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-sodai.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jit-nl-Rso">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -210,16 +210,16 @@
                             <constraint firstItem="Jit-nl-Rso" firstAttribute="top" secondItem="GEc-me-Tj6" secondAttribute="bottom" id="pfd-Cw-cph"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="特別大型ごみ" id="sx1-Go-4AA"/>
+                    <tabBarItem key="tabBarItem" title="粗大ごみ、臨時ごみ・引越し等の一時多量ごみ" id="sx1-Go-4AA" userLabel="粗大ごみ、臨時ごみ・引越し等の一時多量ごみ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Enp-mp-Fqr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="54" y="1278"/>
         </scene>
-        <!--剪定枝、小型家電リサイクル-->
+        <!--粗大ごみ処理単価表１-->
         <scene sceneID="1Ek-ge-3Gj">
             <objects>
-                <viewController id="kAF-tq-g7P" sceneMemberID="viewController">
+                <viewController title="粗大ごみ処理単価表１" id="kAF-tq-g7P" userLabel="粗大ごみ処理単価表１" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bAX-vn-hS2"/>
                         <viewControllerLayoutGuide type="bottom" id="Cu4-qY-y9Z"/>
@@ -228,7 +228,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="eda&amp;smallkaden-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="pRQ-Ev-g3t">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-sodai2.png" translatesAutoresizingMaskIntoConstraints="NO" id="pRQ-Ev-g3t">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -240,25 +240,25 @@
                             <constraint firstItem="pRQ-Ev-g3t" firstAttribute="trailing" secondItem="XgF-Wp-bJD" secondAttribute="trailing" id="tI9-hN-vWE"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="剪定枝、小型家電リサイクル" id="rFd-8J-ua6"/>
+                    <tabBarItem key="tabBarItem" title="粗大ごみ処理単価表１" id="rFd-8J-ua6" userLabel="粗大ごみ処理単価表１"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2W8-2G-l6p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="402" y="1278"/>
         </scene>
-        <!--商品プラ・特定処理品目-->
+        <!--可燃ごみ-->
         <scene sceneID="g3V-Zb-cZN">
             <objects>
-                <viewController id="VoL-cH-XHe" sceneMemberID="viewController">
+                <viewController title="可燃ごみ" id="VoL-cH-XHe" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="oYb-fm-ObG"/>
+                        <viewControllerLayoutGuide type="top" id="oYb-fm-ObG" userLabel="可燃ごみ"/>
                         <viewControllerLayoutGuide type="bottom" id="uaj-Nj-n4r"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="U7G-dN-1WH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="shohin-pla-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="NUo-Lk-yd2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-kanen.png" translatesAutoresizingMaskIntoConstraints="NO" id="NUo-Lk-yd2">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -270,16 +270,16 @@
                             <constraint firstItem="NUo-Lk-yd2" firstAttribute="leading" secondItem="U7G-dN-1WH" secondAttribute="leading" id="wiE-Jr-rnh"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="商品プラ・特定処理品目" id="bhS-eN-Pld"/>
+                    <tabBarItem key="tabBarItem" title="可燃ごみ" id="bhS-eN-Pld"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hrf-hR-7Sg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1446" y="615"/>
         </scene>
-        <!--市で収集、処理できないもの1-->
+        <!--粗大ごみ処理単価表２-->
         <scene sceneID="Vfx-Zz-gfa">
             <objects>
-                <viewController id="fcF-3I-NZR" sceneMemberID="viewController">
+                <viewController title="粗大ごみ処理単価表２" id="fcF-3I-NZR" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="W6P-ns-ejw"/>
                         <viewControllerLayoutGuide type="bottom" id="CqN-l6-qqD"/>
@@ -288,7 +288,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="no-treat-list1.png" translatesAutoresizingMaskIntoConstraints="NO" id="coc-DU-aP4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-sodai3.png" translatesAutoresizingMaskIntoConstraints="NO" id="coc-DU-aP4">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -300,16 +300,16 @@
                             <constraint firstItem="coc-DU-aP4" firstAttribute="trailing" secondItem="uxe-4t-bBF" secondAttribute="trailing" id="uGx-K1-RsZ"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="市で収集、処理できないもの1" id="sUC-04-1Zw"/>
+                    <tabBarItem key="tabBarItem" title="粗大ごみ処理単価表２" id="sUC-04-1Zw" userLabel="粗大ごみ処理単価表２"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="190-AI-C0M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="759" y="1278"/>
         </scene>
-        <!--ごみ関連施設のご案内-->
+        <!--市が収集しないもの-->
         <scene sceneID="dxu-F9-Fn5">
             <objects>
-                <viewController id="eas-vT-qMS" sceneMemberID="viewController">
+                <viewController title="市が収集しないもの" id="eas-vT-qMS" userLabel="市が収集しないもの" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ayf-72-Foh"/>
                         <viewControllerLayoutGuide type="bottom" id="8tv-mV-mPx"/>
@@ -318,7 +318,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="shisetsu-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Wu-4U-0xW">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-kaisyunashi.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Wu-4U-0xW">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -330,16 +330,16 @@
                             <constraint firstItem="7Wu-4U-0xW" firstAttribute="top" secondItem="ayf-72-Foh" secondAttribute="bottom" id="vbT-WV-jFi"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="ごみ関連施設のご案内" id="afT-u1-GBr"/>
+                    <tabBarItem key="tabBarItem" title="市が収集しないもの" id="afT-u1-GBr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qqt-IQ-hOt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1446" y="1278"/>
         </scene>
-        <!--市で収集、処理できないもの2-->
+        <!--ごみの自己搬入-->
         <scene sceneID="fl1-3u-H76">
             <objects>
-                <viewController id="5El-TC-yw5" sceneMemberID="viewController">
+                <viewController title="ごみの自己搬入" id="5El-TC-yw5" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yjc-gF-ZZS"/>
                         <viewControllerLayoutGuide type="bottom" id="4o0-vo-z8A"/>
@@ -348,7 +348,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="no-treat-list2.png" translatesAutoresizingMaskIntoConstraints="NO" id="r8V-dc-Jrv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="sashi-jikohannyu.png" translatesAutoresizingMaskIntoConstraints="NO" id="r8V-dc-Jrv">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -360,7 +360,7 @@
                             <constraint firstItem="r8V-dc-Jrv" firstAttribute="trailing" secondItem="Xhy-Bz-UuI" secondAttribute="trailing" id="dC6-Xv-GZI"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="市で収集、処理できないもの2" id="0N3-RS-5hn"/>
+                    <tabBarItem key="tabBarItem" title="ごみの自己搬入" id="0N3-RS-5hn" userLabel="ごみの自己搬入"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BIM-v1-UTf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -760,7 +760,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="8blk-2015-09.png" translatesAutoresizingMaskIntoConstraints="NO" id="mLs-Fy-YrX">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="1blk-2015-08.png" translatesAutoresizingMaskIntoConstraints="NO" id="mLs-Fy-YrX">
                                 <rect key="frame" x="6" y="70" width="308" height="444"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="435" id="ki4-ah-Xjt"/>
@@ -845,14 +845,20 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <imageView tag="2" contentMode="scaleToFill" image="shigen.png" translatesAutoresizingMaskIntoConstraints="NO" id="tYr-HQ-86B">
-                                <rect key="frame" x="16" y="138" width="142" height="79"/>
+                            <imageView tag="3" contentMode="scaleToFill" image="funen.png" translatesAutoresizingMaskIntoConstraints="NO" id="tYr-HQ-86B">
+                                <rect key="frame" x="16" y="111" width="142" height="53.5"/>
                             </imageView>
-                            <imageView tag="3" contentMode="scaleToFill" image="kanen.png" translatesAutoresizingMaskIntoConstraints="NO" id="WCe-ys-v6q">
-                                <rect key="frame" x="16" y="221" width="141.5" height="79.5"/>
+                            <imageView tag="5" contentMode="scaleToFill" image="yugai.png" translatesAutoresizingMaskIntoConstraints="NO" id="WCe-ys-v6q">
+                                <rect key="frame" x="16" y="168" width="141.5" height="53"/>
                             </imageView>
-                            <imageView tag="6" contentMode="scaleToFill" image="plastic.png" translatesAutoresizingMaskIntoConstraints="NO" id="NIV-Yh-tzg">
-                                <rect key="frame" x="162" y="221" width="141.5" height="79.5"/>
+                            <imageView tag="6" contentMode="scaleToFill" image="koshifurununo.png" translatesAutoresizingMaskIntoConstraints="NO" id="NIV-Yh-tzg">
+                                <rect key="frame" x="162.5" y="168" width="141.5" height="53"/>
+                            </imageView>
+                            <imageView tag="7" contentMode="scaleToFill" image="haiyu.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fhg-fc-Zx4">
+                                <rect key="frame" x="16" y="227" width="142" height="53"/>
+                            </imageView>
+                            <imageView tag="8" contentMode="scaleToFill" image="sodai.png" translatesAutoresizingMaskIntoConstraints="NO" id="f0D-cf-6aY">
+                                <rect key="frame" x="162" y="227" width="141.5" height="53"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="01/20(火)" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="LxF-Ic-JFO">
                                 <rect key="frame" x="21" y="463" width="283" height="50"/>
@@ -863,18 +869,24 @@
                                 <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView tag="5" contentMode="scaleToFill" image="funen.png" translatesAutoresizingMaskIntoConstraints="NO" id="3DM-jt-r2p">
-                                <rect key="frame" x="162.5" y="137.5" width="141.5" height="80"/>
+                            <imageView tag="4" contentMode="scaleToFill" image="plastic.png" translatesAutoresizingMaskIntoConstraints="NO" id="3DM-jt-r2p">
+                                <rect key="frame" x="163" y="111" width="141.5" height="53.5"/>
                             </imageView>
-                            <imageView tag="4" contentMode="scaleToFill" image="can.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pbr-Wx-dVt">
-                                <rect key="frame" x="162" y="54" width="141.5" height="79.5"/>
+                            <imageView tag="2" contentMode="scaleToFill" image="canbin.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pbr-Wx-dVt">
+                                <rect key="frame" x="162.5" y="54" width="141.5" height="53"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="大型ごみ/特別大型ごみ/剪定枝の収集の申し込みは、(株)藤沢市興業公社へ" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="BPi-JD-SP8">
-                                <rect key="frame" x="16" y="347" width="288" height="40"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="BPi-JD-SP8">
+                                <rect key="frame" x="16" y="317" width="288" height="100"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="13D-m8-O3g"/>
+                                    <constraint firstAttribute="height" constant="90" id="13D-m8-O3g"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="18"/>
+                                <string key="text">粗大ごみの申し込み先
+飯塚地区 0948-22-1551
+穂波地区 0948-22-0380
+筑穂地区 0948-72-1100
+庄内地区 0948-82-1200
+頴田地区 09496-2-2211</string>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -910,7 +922,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="次の" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="kg2-RB-h4o">
-                                <rect key="frame" x="21" y="425" width="72" height="32"/>
+                                <rect key="frame" x="21" y="421" width="72" height="36"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="36"/>
                                 <color key="textColor" red="1" green="0.95936678450000001" blue="0.23297656459999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -919,50 +931,41 @@
                                 <rect key="frame" x="98" y="425" width="201" height="36"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zby-2W-xRp">
-                                <rect key="frame" x="16" y="306" width="288" height="36"/>
+                                <rect key="frame" x="16" y="282" width="288" height="30"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="36" id="80i-3b-tSG"/>
+                                    <constraint firstAttribute="height" constant="30" id="80i-3b-tSG"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="20"/>
-                                <state key="normal" title="品名検索はこちら(藤沢市HP)">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="品名検索は その他 ボタンにて">
+                                    <color key="titleColor" red="1" green="0.19289090719999999" blue="0.27557419820000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="AHG-fq-hZq" kind="modal" id="OtL-xL-VyP"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="0466-23-5301" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="FYU-4B-h0d">
-                                <rect key="frame" x="16" y="387" width="143" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="3JN-xc-x2Z"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="18"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GwU-mF-Afh">
-                                <rect key="frame" x="169" y="387" width="135" height="30"/>
+                                <rect key="frame" x="254" y="387" width="50" height="30"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="UMs-Mq-goO"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="15"/>
                                 <state key="normal">
                                     <string key="title" base64-UTF8="YES">
-CPCfk57pm7voqbEo5pyJ5paZKQ
+CPCfk57poLTnlLA
 </string>
                                     <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="tapTEL" destination="SnU-nH-BS8" eventType="touchUpInside" id="aWd-EG-B7g"/>
+                                    <action selector="tapTEL5" destination="SnU-nH-BS8" eventType="touchUpInside" id="epO-BR-Xfa"/>
                                 </connections>
                             </button>
-                            <imageView tag="1" contentMode="scaleToFill" image="petbottle.png" translatesAutoresizingMaskIntoConstraints="NO" id="aZU-Os-XNi">
-                                <rect key="frame" x="16" y="54" width="141.5" height="79.5"/>
+                            <imageView tag="1" contentMode="scaleToFill" image="kanen.png" translatesAutoresizingMaskIntoConstraints="NO" id="aZU-Os-XNi">
+                                <rect key="frame" x="16" y="54" width="141.5" height="53"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="自宅前" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Lw3-FO-vL3">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="自宅前" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Lw3-FO-vL3">
                                 <rect key="frame" x="206" y="463" width="93" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="bOM-0i-dsE"/>
@@ -971,6 +974,86 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                 <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WQz-6E-leU">
+                                <rect key="frame" x="16" y="352" width="50" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="l00-hm-8TZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="15"/>
+                                <state key="normal">
+                                    <string key="title" base64-UTF8="YES">
+CPCfk57po6/loZo
+</string>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapTEL1" destination="SnU-nH-BS8" eventType="touchUpInside" id="l1T-Fw-3Pv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qzm-Hd-9cp">
+                                <rect key="frame" x="16" y="387" width="50" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="LgU-Ct-pJP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="15"/>
+                                <state key="normal">
+                                    <string key="title" base64-UTF8="YES">
+CPCfk57nqYLms6I
+</string>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapTEL2" destination="SnU-nH-BS8" eventType="touchUpInside" id="NN4-M4-X0I"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9kA-q3-1I5">
+                                <rect key="frame" x="254" y="317" width="50" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="COc-h4-Um2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="15"/>
+                                <state key="normal">
+                                    <string key="title" base64-UTF8="YES">
+CPCfk57nrZHnqYI
+</string>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapTEL3" destination="SnU-nH-BS8" eventType="touchUpInside" id="SXG-Ab-fmb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z2t-wp-edm">
+                                <rect key="frame" x="254" y="352" width="50" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="L76-7G-Ynf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="15"/>
+                                <state key="normal">
+                                    <string key="title" base64-UTF8="YES">
+CPCfk57luoTlhoU
+</string>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapTEL4" destination="SnU-nH-BS8" eventType="touchUpInside" id="Fyk-Ek-j7u"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="AjC-8J-v1d">
+                                <rect key="frame" x="16" y="317" width="50" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">発信
+👇👉</string>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="15"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -978,61 +1061,77 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                             <constraint firstItem="j9t-at-FM4" firstAttribute="top" secondItem="GaC-VG-uaV" secondAttribute="bottom" constant="2" id="1cP-qM-vk3"/>
                             <constraint firstItem="Pbr-Wx-dVt" firstAttribute="height" secondItem="tYr-HQ-86B" secondAttribute="height" id="213-Zb-Yj7"/>
                             <constraint firstItem="kg2-RB-h4o" firstAttribute="leading" secondItem="3Er-xN-W7g" secondAttribute="leadingMargin" constant="5" id="2EY-ic-rnh"/>
+                            <constraint firstItem="tYr-HQ-86B" firstAttribute="leading" secondItem="Fhg-fc-Zx4" secondAttribute="leading" id="3pX-0v-qQ1"/>
                             <constraint firstItem="NIV-Yh-tzg" firstAttribute="top" secondItem="3DM-jt-r2p" secondAttribute="bottom" constant="4" id="4Fe-Qb-1Xf"/>
+                            <constraint firstItem="GwU-mF-Afh" firstAttribute="top" secondItem="Z2t-wp-edm" secondAttribute="bottom" constant="5" id="4uw-az-xFO"/>
                             <constraint firstItem="j9t-at-FM4" firstAttribute="leading" secondItem="Wqt-pK-Whr" secondAttribute="trailing" id="61T-3r-Vy0"/>
-                            <constraint firstItem="SK9-NK-bHs" firstAttribute="top" secondItem="FYU-4B-h0d" secondAttribute="bottom" constant="5" id="68g-6z-oDN"/>
+                            <constraint firstItem="SK9-NK-bHs" firstAttribute="top" secondItem="GwU-mF-Afh" secondAttribute="bottom" constant="5" id="7nM-cr-5cn"/>
+                            <constraint firstItem="f0D-cf-6aY" firstAttribute="leading" secondItem="Fhg-fc-Zx4" secondAttribute="trailing" constant="4" id="AOn-Cj-mZV"/>
                             <constraint firstItem="3DM-jt-r2p" firstAttribute="top" secondItem="Pbr-Wx-dVt" secondAttribute="bottom" constant="4" id="Abr-FT-P2s"/>
-                            <constraint firstItem="GwU-mF-Afh" firstAttribute="leading" secondItem="FYU-4B-h0d" secondAttribute="trailing" constant="10" id="Ax5-cm-ruG"/>
-                            <constraint firstItem="SK9-NK-bHs" firstAttribute="top" secondItem="GwU-mF-Afh" secondAttribute="bottom" constant="5" id="BKV-Gj-ndi"/>
                             <constraint firstItem="tYr-HQ-86B" firstAttribute="top" secondItem="aZU-Os-XNi" secondAttribute="bottom" constant="4" id="CXs-vg-lg0"/>
-                            <constraint firstItem="GwU-mF-Afh" firstAttribute="top" secondItem="BPi-JD-SP8" secondAttribute="bottom" id="FuK-u3-Tey"/>
+                            <constraint firstItem="AjC-8J-v1d" firstAttribute="leading" secondItem="3Er-xN-W7g" secondAttribute="leadingMargin" id="F22-us-hI3"/>
+                            <constraint firstItem="9kA-q3-1I5" firstAttribute="top" secondItem="zby-2W-xRp" secondAttribute="bottom" constant="5" id="Fu7-Ym-yQW"/>
                             <constraint firstAttribute="trailingMargin" secondItem="GwU-mF-Afh" secondAttribute="trailing" id="Gcb-kT-eMw"/>
                             <constraint firstItem="aZU-Os-XNi" firstAttribute="leading" secondItem="3Er-xN-W7g" secondAttribute="leadingMargin" id="Gjl-Nn-e2U"/>
                             <constraint firstItem="Pbr-Wx-dVt" firstAttribute="height" secondItem="NIV-Yh-tzg" secondAttribute="height" id="Gvm-zH-1f6"/>
                             <constraint firstItem="Pbr-Wx-dVt" firstAttribute="width" secondItem="3DM-jt-r2p" secondAttribute="width" id="HEA-tz-uu8"/>
                             <constraint firstAttribute="trailingMargin" secondItem="SK9-NK-bHs" secondAttribute="trailing" id="Jb1-yw-mER"/>
                             <constraint firstItem="Pbr-Wx-dVt" firstAttribute="height" secondItem="aZU-Os-XNi" secondAttribute="height" id="Jfh-pP-xhP"/>
+                            <constraint firstItem="Pbr-Wx-dVt" firstAttribute="height" secondItem="Fhg-fc-Zx4" secondAttribute="height" id="Ljo-AF-zd1"/>
+                            <constraint firstItem="Z2t-wp-edm" firstAttribute="top" secondItem="9kA-q3-1I5" secondAttribute="bottom" constant="5" id="LsX-I6-reR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Lw3-FO-vL3" secondAttribute="trailing" constant="5" id="Lva-YD-JKO"/>
                             <constraint firstItem="aZU-Os-XNi" firstAttribute="top" secondItem="imK-vP-Abn" secondAttribute="bottom" constant="2" id="MDH-o6-xQf"/>
                             <constraint firstItem="Pbr-Wx-dVt" firstAttribute="width" secondItem="aZU-Os-XNi" secondAttribute="width" id="NDC-ga-wmP"/>
                             <constraint firstItem="tYr-HQ-86B" firstAttribute="leading" secondItem="WCe-ys-v6q" secondAttribute="leading" id="OWs-qQ-O4r"/>
+                            <constraint firstItem="WQz-6E-leU" firstAttribute="top" secondItem="AjC-8J-v1d" secondAttribute="bottom" constant="5" id="Ow5-Hf-gFh"/>
                             <constraint firstItem="Wqt-pK-Whr" firstAttribute="top" secondItem="GaC-VG-uaV" secondAttribute="bottom" constant="2" id="PNw-rH-Gtp"/>
                             <constraint firstItem="LxF-Ic-JFO" firstAttribute="leading" secondItem="3Er-xN-W7g" secondAttribute="leadingMargin" constant="5" id="QFd-YY-7Cm"/>
                             <constraint firstItem="NIV-Yh-tzg" firstAttribute="leading" secondItem="WCe-ys-v6q" secondAttribute="trailing" constant="5" id="QVk-Nr-OeU"/>
                             <constraint firstItem="Lw3-FO-vL3" firstAttribute="top" secondItem="g1D-Lh-qy6" secondAttribute="bottom" constant="2" id="Sou-Xh-18u"/>
-                            <constraint firstItem="FYU-4B-h0d" firstAttribute="top" secondItem="BPi-JD-SP8" secondAttribute="bottom" id="TEA-7u-q4U"/>
+                            <constraint firstItem="Pbr-Wx-dVt" firstAttribute="width" secondItem="Fhg-fc-Zx4" secondAttribute="width" id="TSh-HT-R73"/>
                             <constraint firstItem="zby-2W-xRp" firstAttribute="leading" secondItem="3Er-xN-W7g" secondAttribute="leadingMargin" id="U6g-FB-sXN"/>
                             <constraint firstItem="Pbr-Wx-dVt" firstAttribute="width" secondItem="WCe-ys-v6q" secondAttribute="width" id="UYA-MD-43G"/>
                             <constraint firstItem="Pbr-Wx-dVt" firstAttribute="top" secondItem="imK-vP-Abn" secondAttribute="bottom" constant="2" id="Uzf-oM-PIo"/>
+                            <constraint firstItem="zby-2W-xRp" firstAttribute="top" secondItem="f0D-cf-6aY" secondAttribute="bottom" constant="2" id="V3I-dn-uAk"/>
                             <constraint firstItem="3DM-jt-r2p" firstAttribute="leading" secondItem="tYr-HQ-86B" secondAttribute="trailing" constant="5" id="V96-FM-CoR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Pbr-Wx-dVt" secondAttribute="trailing" id="WaI-vw-cw5"/>
                             <constraint firstItem="tYr-HQ-86B" firstAttribute="leading" secondItem="aZU-Os-XNi" secondAttribute="leading" id="WbT-P9-E7h"/>
-                            <constraint firstItem="kg2-RB-h4o" firstAttribute="top" secondItem="FYU-4B-h0d" secondAttribute="bottom" constant="8" id="ZAd-kV-rVh"/>
+                            <constraint firstItem="f0D-cf-6aY" firstAttribute="top" secondItem="NIV-Yh-tzg" secondAttribute="bottom" constant="5.5" id="YW9-Xw-vzF"/>
                             <constraint firstItem="g1D-Lh-qy6" firstAttribute="leading" secondItem="kg2-RB-h4o" secondAttribute="trailing" constant="5" id="ZJ2-9m-Aj9"/>
                             <constraint firstAttribute="trailingMargin" secondItem="imK-vP-Abn" secondAttribute="trailing" id="aRp-3s-ubz"/>
                             <constraint firstItem="BPi-JD-SP8" firstAttribute="top" secondItem="zby-2W-xRp" secondAttribute="bottom" constant="5" id="aTh-wz-t1N"/>
                             <constraint firstItem="Pbr-Wx-dVt" firstAttribute="height" secondItem="WCe-ys-v6q" secondAttribute="height" id="aU4-bN-LST"/>
                             <constraint firstAttribute="trailingMargin" secondItem="g1D-Lh-qy6" secondAttribute="trailing" constant="5" id="awo-yL-ZOr"/>
                             <constraint firstAttribute="trailingMargin" secondItem="zby-2W-xRp" secondAttribute="trailing" id="bnG-QR-dky"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Z2t-wp-edm" secondAttribute="trailing" id="buE-1z-D6v"/>
+                            <constraint firstItem="WQz-6E-leU" firstAttribute="leading" secondItem="3Er-xN-W7g" secondAttribute="leadingMargin" id="c7J-Ux-rmZ"/>
+                            <constraint firstItem="Qzm-Hd-9cp" firstAttribute="leading" secondItem="3Er-xN-W7g" secondAttribute="leadingMargin" id="cYY-Lm-fKw"/>
                             <constraint firstItem="imK-vP-Abn" firstAttribute="top" secondItem="GaC-VG-uaV" secondAttribute="bottom" id="eIx-w7-sHj"/>
                             <constraint firstItem="Lw3-FO-vL3" firstAttribute="baseline" secondItem="LxF-Ic-JFO" secondAttribute="baseline" id="fUH-Cb-K6z"/>
                             <constraint firstItem="BPi-JD-SP8" firstAttribute="leading" secondItem="3Er-xN-W7g" secondAttribute="leadingMargin" id="fhN-4k-8nJ"/>
                             <constraint firstItem="WCe-ys-v6q" firstAttribute="top" secondItem="tYr-HQ-86B" secondAttribute="bottom" constant="4" id="gGE-k0-eGc"/>
                             <constraint firstItem="a5O-HO-GxO" firstAttribute="top" secondItem="Lw3-FO-vL3" secondAttribute="bottom" constant="6" id="iZ7-EB-O9o"/>
-                            <constraint firstItem="FYU-4B-h0d" firstAttribute="leading" secondItem="3Er-xN-W7g" secondAttribute="leadingMargin" id="jUy-MT-3PE"/>
                             <constraint firstItem="Pbr-Wx-dVt" firstAttribute="leading" secondItem="aZU-Os-XNi" secondAttribute="trailing" constant="5" id="kbe-Wa-4cF"/>
+                            <constraint firstItem="SK9-NK-bHs" firstAttribute="top" secondItem="Qzm-Hd-9cp" secondAttribute="bottom" constant="5" id="lEB-wc-hDS"/>
                             <constraint firstAttribute="trailingMargin" secondItem="LxF-Ic-JFO" secondAttribute="trailing" id="lfb-fc-ow8"/>
                             <constraint firstItem="Pbr-Wx-dVt" firstAttribute="width" secondItem="NIV-Yh-tzg" secondAttribute="width" id="m37-MO-WUo"/>
                             <constraint firstAttribute="trailingMargin" secondItem="BPi-JD-SP8" secondAttribute="trailing" id="mNs-ws-yMX"/>
                             <constraint firstItem="SK9-NK-bHs" firstAttribute="leading" secondItem="3Er-xN-W7g" secondAttribute="leadingMargin" id="nEv-L7-1q1"/>
                             <constraint firstAttribute="trailingMargin" secondItem="j9t-at-FM4" secondAttribute="trailing" id="nWA-BK-Kib"/>
                             <constraint firstItem="imK-vP-Abn" firstAttribute="leading" secondItem="3Er-xN-W7g" secondAttribute="leadingMargin" id="neE-QX-1TX"/>
-                            <constraint firstItem="zby-2W-xRp" firstAttribute="top" secondItem="WCe-ys-v6q" secondAttribute="bottom" constant="5" id="o8F-Qr-YN0"/>
                             <constraint firstItem="Pbr-Wx-dVt" firstAttribute="width" secondItem="tYr-HQ-86B" secondAttribute="width" id="qke-JC-AKA"/>
                             <constraint firstItem="LxF-Ic-JFO" firstAttribute="top" secondItem="kg2-RB-h4o" secondAttribute="bottom" constant="6" id="r6B-no-Qn6"/>
                             <constraint firstItem="Pbr-Wx-dVt" firstAttribute="height" secondItem="3DM-jt-r2p" secondAttribute="height" id="sH9-KF-w0W"/>
+                            <constraint firstItem="Qzm-Hd-9cp" firstAttribute="top" secondItem="WQz-6E-leU" secondAttribute="bottom" constant="5" id="tLp-pl-IC5"/>
+                            <constraint firstItem="f0D-cf-6aY" firstAttribute="height" secondItem="Pbr-Wx-dVt" secondAttribute="height" id="uFW-yD-Mzl"/>
+                            <constraint firstItem="SK9-NK-bHs" firstAttribute="top" secondItem="BPi-JD-SP8" secondAttribute="bottom" constant="5" id="ugQ-w4-jvl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9kA-q3-1I5" secondAttribute="trailing" id="v5u-Uv-p1c"/>
+                            <constraint firstItem="f0D-cf-6aY" firstAttribute="width" secondItem="Pbr-Wx-dVt" secondAttribute="width" id="v9M-R1-jCt"/>
                             <constraint firstItem="g1D-Lh-qy6" firstAttribute="top" secondItem="GwU-mF-Afh" secondAttribute="bottom" constant="8" id="vm9-v4-LN3"/>
+                            <constraint firstItem="AjC-8J-v1d" firstAttribute="top" secondItem="zby-2W-xRp" secondAttribute="bottom" constant="5" id="wTH-P4-e0V"/>
                             <constraint firstItem="a5O-HO-GxO" firstAttribute="top" secondItem="SK9-NK-bHs" secondAttribute="bottom" constant="2" id="wUn-Tm-ASy"/>
+                            <constraint firstItem="AjC-8J-v1d" firstAttribute="trailing" secondItem="WQz-6E-leU" secondAttribute="trailing" id="yoZ-Qf-Urs"/>
+                            <constraint firstItem="zby-2W-xRp" firstAttribute="top" secondItem="Fhg-fc-Zx4" secondAttribute="bottom" constant="2" id="zk2-tf-pQ9"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="Zqk-QC-6fm" appends="YES" id="PJe-30-y2A"/>
@@ -1457,7 +1556,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bft-aG-Vks">
-                                <rect key="frame" x="252" y="484" width="52" height="30"/>
+                                <rect key="frame" x="252" y="484" width="51" height="31"/>
                                 <connections>
                                     <action selector="touchSwSpeech:" destination="ZfS-Qq-a3W" eventType="touchUpInside" id="Eza-cf-Pby"/>
                                 </connections>
@@ -1519,6 +1618,13 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                     <constraint firstAttribute="height" constant="150" id="yHg-su-4JL"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAh-71-FVX">
+                                <rect key="frame" x="227" y="424" width="77" height="30"/>
+                                <state key="normal" title="デモNext"/>
+                                <connections>
+                                    <action selector="pushButtonDebug:" destination="ZfS-Qq-a3W" eventType="touchUpInside" id="xjH-dI-jJO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -1556,8 +1662,10 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                             <constraint firstItem="5m2-xw-uaT" firstAttribute="top" secondItem="aI4-XA-KOc" secondAttribute="bottom" constant="5" id="TXc-1M-fTY"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Tin-ey-V4f" secondAttribute="trailing" constant="44" id="Tc0-5l-DGx"/>
                             <constraint firstItem="ZxN-ba-Iby" firstAttribute="top" secondItem="5m2-xw-uaT" secondAttribute="top" id="Tz3-CH-Khc"/>
+                            <constraint firstItem="hDn-Zh-UvM" firstAttribute="top" secondItem="KAh-71-FVX" secondAttribute="bottom" constant="5" id="UDV-1M-FEH"/>
                             <constraint firstItem="zkx-9V-hdd" firstAttribute="top" secondItem="frV-QW-HJA" secondAttribute="top" id="Unj-ZT-6jd"/>
                             <constraint firstItem="Bft-aG-Vks" firstAttribute="top" secondItem="ZxN-ba-Iby" secondAttribute="top" id="W3P-P0-rhW"/>
+                            <constraint firstItem="KAh-71-FVX" firstAttribute="trailing" secondItem="ToW-0N-PeX" secondAttribute="trailingMargin" id="WNV-hg-2Ga"/>
                             <constraint firstItem="ZxN-ba-Iby" firstAttribute="leading" secondItem="Rgg-w2-Pzg" secondAttribute="trailing" constant="5" id="Wa8-oc-68O"/>
                             <constraint firstItem="Dte-Dz-fia" firstAttribute="top" secondItem="s3g-bP-ijs" secondAttribute="top" id="Wr4-5L-2SR"/>
                             <constraint firstItem="Bft-aG-Vks" firstAttribute="leading" secondItem="hDn-Zh-UvM" secondAttribute="leading" id="ZhW-Mb-nba"/>
@@ -1813,33 +1921,98 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
             </objects>
             <point key="canvasLocation" x="-641" y="615"/>
         </scene>
+        <!--市が収集しないもの＜家電リサイクル法対象機器＞-->
+        <scene sceneID="deS-fr-g68">
+            <objects>
+                <viewController title="市が収集しないもの＜家電リサイクル法対象機器＞" id="v9b-aB-RtB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="E82-hV-ZMR"/>
+                        <viewControllerLayoutGuide type="bottom" id="0qL-hf-Jgy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jw1-V6-UsX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-kaisyunashi2.png" translatesAutoresizingMaskIntoConstraints="NO" id="0DF-5W-n4Y">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0DF-5W-n4Y" firstAttribute="top" secondItem="E82-hV-ZMR" secondAttribute="bottom" id="0cV-bQ-8yT"/>
+                            <constraint firstItem="0qL-hf-Jgy" firstAttribute="top" secondItem="0DF-5W-n4Y" secondAttribute="bottom" id="ACc-1o-W0s"/>
+                            <constraint firstItem="0DF-5W-n4Y" firstAttribute="leading" secondItem="jw1-V6-UsX" secondAttribute="leading" id="BDS-m9-O2S"/>
+                            <constraint firstItem="0DF-5W-n4Y" firstAttribute="trailing" secondItem="jw1-V6-UsX" secondAttribute="trailing" id="x1j-Cz-yWs"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="市が収集しないもの＜家電リサイクル法対象機器＞" id="6Ef-qi-7vN" userLabel="市が収集しないもの２"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bb6-EM-fqA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1798" y="1278"/>
+        </scene>
+        <!--市が収集しないもの３-->
+        <scene sceneID="6mG-WP-avS">
+            <objects>
+                <viewController title="市が収集しないもの＜パソコン＞＜オートバイ＞" id="NvK-iL-RzG" userLabel="市が収集しないもの３" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="e7a-4l-htS"/>
+                        <viewControllerLayoutGuide type="bottom" id="x5M-iS-s30"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qjl-To-EEr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-kaisyunashi3.png" translatesAutoresizingMaskIntoConstraints="NO" id="OiI-GN-AJv">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OiI-GN-AJv" firstAttribute="top" secondItem="e7a-4l-htS" secondAttribute="bottom" id="Z2m-TS-PTx"/>
+                            <constraint firstItem="x5M-iS-s30" firstAttribute="top" secondItem="OiI-GN-AJv" secondAttribute="bottom" id="ckM-Ew-Ala"/>
+                            <constraint firstItem="OiI-GN-AJv" firstAttribute="trailing" secondItem="qjl-To-EEr" secondAttribute="trailing" id="ddq-Ah-p9b"/>
+                            <constraint firstItem="OiI-GN-AJv" firstAttribute="leading" secondItem="qjl-To-EEr" secondAttribute="leading" id="v6Y-zs-iVz"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="市が収集しないもの＜パソコン＞＜オートバイ＞" id="ebI-CS-256" userLabel="市が収集しないもの３"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TO8-zu-XeJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2143" y="1278"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="8blk-2015-09.png" width="1061" height="750"/>
-        <image name="can.png" width="400" height="200"/>
-        <image name="eda&amp;smallkaden-list.png" width="490" height="750"/>
-        <image name="funen-list.png" width="493" height="750"/>
-        <image name="funen.png" width="400" height="200"/>
-        <image name="kanen-list.png" width="493" height="750"/>
-        <image name="kanen.png" width="400" height="200"/>
-        <image name="no-treat-list1.png" width="1080" height="1643"/>
-        <image name="no-treat-list2.png" width="1074" height="1644"/>
-        <image name="oogata-list.png" width="493" height="750"/>
-        <image name="petbottle.png" width="400" height="200"/>
-        <image name="plastic-list.png" width="493" height="750"/>
-        <image name="plastic.png" width="400" height="200"/>
-        <image name="shigen-kobetsu-list.png" width="492" height="750"/>
-        <image name="shigen-sonota-list.png" width="491" height="750"/>
-        <image name="shigen.png" width="400" height="200"/>
-        <image name="shisetsu-list.png" width="491" height="750"/>
-        <image name="shohin-pla-list.png" width="491" height="750"/>
-        <image name="special-oogata-list.png" width="493" height="750"/>
+        <image name="1blk-2015-08.png" width="550" height="478"/>
+        <image name="can.png" width="300" height="150"/>
+        <image name="canbin.png" width="300" height="150"/>
+        <image name="funen.png" width="300" height="150"/>
+        <image name="haiyu.png" width="300" height="150"/>
+        <image name="kanen.png" width="300" height="150"/>
+        <image name="koshifurununo.png" width="300" height="150"/>
+        <image name="plastic.png" width="300" height="150"/>
+        <image name="sashi-canbin.png" width="1240" height="1753"/>
+        <image name="sashi-funen.png" width="1240" height="1753"/>
+        <image name="sashi-haiyu.png" width="1240" height="1753"/>
+        <image name="sashi-jikohannyu.png" width="1240" height="1753"/>
+        <image name="sashi-kaisyunashi.png" width="1240" height="1753"/>
+        <image name="sashi-kaisyunashi2.png" width="1240" height="1753"/>
+        <image name="sashi-kaisyunashi3.png" width="1240" height="1753"/>
+        <image name="sashi-kanen.png" width="1240" height="1753"/>
+        <image name="sashi-koshifurununo.png" width="1240" height="1753"/>
+        <image name="sashi-plastic.png" width="1240" height="1753"/>
+        <image name="sashi-sodai.png" width="1240" height="1753"/>
+        <image name="sashi-sodai2.png" width="1240" height="1753"/>
+        <image name="sashi-sodai3.png" width="1240" height="1753"/>
+        <image name="sashi-yugai.png" width="1240" height="1753"/>
+        <image name="sodai.png" width="300" height="150"/>
         <image name="tab_month.png" width="30" height="30"/>
         <image name="tab_search.png" width="30" height="30"/>
         <image name="tab_setting.png" width="30" height="30"/>
         <image name="tab_today.png" width="30" height="30"/>
         <image name="tab_week.png" width="30" height="30"/>
         <image name="word_kanen.png" width="400" height="66"/>
+        <image name="yugai.png" width="300" height="150"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

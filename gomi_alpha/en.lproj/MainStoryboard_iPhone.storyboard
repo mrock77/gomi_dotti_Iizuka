@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="IUk-Ic-rlg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--大型ごみ-->
+        <!--廃食用油-->
         <scene sceneID="RcW-Jz-k7j">
             <objects>
-                <viewController id="I1z-5V-KVE" sceneMemberID="viewController">
+                <viewController title="廃食用油" id="I1z-5V-KVE" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qBy-55-cZi"/>
                         <viewControllerLayoutGuide type="bottom" id="Urf-6z-5rP"/>
@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="oogata-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="43T-u1-1Wg">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-haiyu.png" translatesAutoresizingMaskIntoConstraints="NO" id="43T-u1-1Wg">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -30,16 +30,16 @@
                             <constraint firstItem="43T-u1-1Wg" firstAttribute="trailing" secondItem="JyU-F2-06l" secondAttribute="trailing" id="VZr-3P-1mE"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="大型ごみ" id="J5H-bP-b2x" userLabel="Tab Bar Item - 大型ごみ"/>
+                    <tabBarItem key="tabBarItem" title="廃食用油" id="J5H-bP-b2x" userLabel="Tab Bar Item - 大型ごみ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vck-ZT-Bp2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-295" y="1278"/>
         </scene>
-        <!--可燃ごみ-->
+        <!--資源プラスチック-->
         <scene sceneID="agG-rM-pCL">
             <objects>
-                <viewController title="可燃ごみ" id="41v-KM-NLD" sceneMemberID="viewController">
+                <viewController title="資源プラスチック" id="41v-KM-NLD" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Oon-KI-3OT"/>
                         <viewControllerLayoutGuide type="bottom" id="e7f-Md-Hsh"/>
@@ -48,7 +48,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="kanen-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="oif-IV-cyf">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-plastic.png" translatesAutoresizingMaskIntoConstraints="NO" id="oif-IV-cyf">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -60,16 +60,16 @@
                             <constraint firstItem="oif-IV-cyf" firstAttribute="top" secondItem="Oon-KI-3OT" secondAttribute="bottom" id="scY-uz-fXf"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="可燃ごみ" id="tfg-TF-KgC"/>
+                    <tabBarItem key="tabBarItem" title="資源プラスチック" id="tfg-TF-KgC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uur-zs-0of" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-295" y="615"/>
         </scene>
-        <!--不燃物・本・商品プラ-->
+        <!--古紙・古布-->
         <scene sceneID="hRE-wn-l8N">
             <objects>
-                <viewController id="6NO-GF-GJO" sceneMemberID="viewController">
+                <viewController title="古紙・古布" id="6NO-GF-GJO" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qsh-5K-IBB"/>
                         <viewControllerLayoutGuide type="bottom" id="FQA-hX-GY2"/>
@@ -78,7 +78,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="funen-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="nby-bC-DOP">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-koshifurununo.png" translatesAutoresizingMaskIntoConstraints="NO" id="nby-bC-DOP">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -90,16 +90,16 @@
                             <constraint firstItem="nby-bC-DOP" firstAttribute="leading" secondItem="sJm-xM-oSB" secondAttribute="leading" id="wXb-R6-SZv"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="不燃物・本・商品プラ" id="kDi-sf-lZK"/>
+                    <tabBarItem key="tabBarItem" title="古紙・古布" id="kDi-sf-lZK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u17-bm-HNR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="56" y="615"/>
         </scene>
-        <!--資源(戸別収集対象品目)-->
+        <!--有害ごみ-->
         <scene sceneID="2QD-3M-lA8">
             <objects>
-                <viewController id="orH-rj-gEf" sceneMemberID="viewController">
+                <viewController title="有害ごみ" id="orH-rj-gEf" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HK2-yG-oh7"/>
                         <viewControllerLayoutGuide type="bottom" id="qdg-NY-mSt"/>
@@ -108,7 +108,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="shigen-kobetsu-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="zOW-aN-siG">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-yugai.png" translatesAutoresizingMaskIntoConstraints="NO" id="zOW-aN-siG">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -120,16 +120,16 @@
                             <constraint firstItem="zOW-aN-siG" firstAttribute="top" secondItem="HK2-yG-oh7" secondAttribute="bottom" id="vbF-Nh-OoK"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="資源(戸別収集対象品目)" id="Ahc-r4-U4a"/>
+                    <tabBarItem key="tabBarItem" title="有害ごみ" id="Ahc-r4-U4a"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pZO-Nz-lQY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="410" y="615"/>
         </scene>
-        <!--資源(その他-集積所対象品目)-->
+        <!--空きかん・空きびん-->
         <scene sceneID="eUS-3I-udW">
             <objects>
-                <viewController id="vIX-cI-w01" sceneMemberID="viewController">
+                <viewController title="空きかん・空きびん" id="vIX-cI-w01" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="47E-ib-Sbh"/>
                         <viewControllerLayoutGuide type="bottom" id="Rt9-NG-L8T"/>
@@ -138,7 +138,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="shigen-sonota-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ngs-Aa-LNF">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-canbin.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ngs-Aa-LNF">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -150,16 +150,16 @@
                             <constraint firstItem="Ngs-Aa-LNF" firstAttribute="leading" secondItem="vlQ-x6-9LX" secondAttribute="leading" id="ktL-B0-A9T"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="資源(その他-集積所対象品目)" id="Waw-rE-cZf"/>
+                    <tabBarItem key="tabBarItem" title="空きかん・空きびん" id="Waw-rE-cZf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6P7-vi-ILY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="761" y="615"/>
         </scene>
-        <!--プラスチック製容器包装-->
+        <!--不燃ごみ-->
         <scene sceneID="Xuw-QW-ljs">
             <objects>
-                <viewController id="vQy-RL-D1Z" sceneMemberID="viewController">
+                <viewController title="不燃ごみ" id="vQy-RL-D1Z" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ygr-XS-TjG"/>
                         <viewControllerLayoutGuide type="bottom" id="RrC-oK-Zef"/>
@@ -168,7 +168,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="plastic-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="XmO-YB-288">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-funen.png" translatesAutoresizingMaskIntoConstraints="NO" id="XmO-YB-288">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -180,16 +180,16 @@
                             <constraint firstItem="XmO-YB-288" firstAttribute="top" secondItem="Ygr-XS-TjG" secondAttribute="bottom" id="wzx-Lq-IBK"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="プラスチック製容器包装" id="L1H-bX-xnd"/>
+                    <tabBarItem key="tabBarItem" title="不燃ごみ" id="L1H-bX-xnd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fvS-tm-Z7L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1097" y="615"/>
         </scene>
-        <!--特別大型ごみ-->
+        <!--粗大ごみ、臨時ごみ・引越し等の一時多量ごみ-->
         <scene sceneID="fu2-Vm-wF0">
             <objects>
-                <viewController id="uN5-FE-ur4" sceneMemberID="viewController">
+                <viewController title="粗大ごみ、臨時ごみ・引越し等の一時多量ごみ" id="uN5-FE-ur4" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GEc-me-Tj6"/>
                         <viewControllerLayoutGuide type="bottom" id="Bg5-iA-9Bw"/>
@@ -198,7 +198,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="special-oogata-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jit-nl-Rso">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-sodai.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jit-nl-Rso">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -210,16 +210,16 @@
                             <constraint firstItem="Jit-nl-Rso" firstAttribute="top" secondItem="GEc-me-Tj6" secondAttribute="bottom" id="pfd-Cw-cph"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="特別大型ごみ" id="sx1-Go-4AA"/>
+                    <tabBarItem key="tabBarItem" title="粗大ごみ、臨時ごみ・引越し等の一時多量ごみ" id="sx1-Go-4AA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Enp-mp-Fqr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="54" y="1278"/>
         </scene>
-        <!--剪定枝、小型家電リサイクル-->
+        <!--粗大ごみ処理単価表１-->
         <scene sceneID="1Ek-ge-3Gj">
             <objects>
-                <viewController id="kAF-tq-g7P" sceneMemberID="viewController">
+                <viewController title="粗大ごみ処理単価表１" id="kAF-tq-g7P" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bAX-vn-hS2"/>
                         <viewControllerLayoutGuide type="bottom" id="Cu4-qY-y9Z"/>
@@ -228,7 +228,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="eda&amp;smallkaden-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="pRQ-Ev-g3t">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-sodai2.png" translatesAutoresizingMaskIntoConstraints="NO" id="pRQ-Ev-g3t">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -240,16 +240,16 @@
                             <constraint firstItem="pRQ-Ev-g3t" firstAttribute="trailing" secondItem="XgF-Wp-bJD" secondAttribute="trailing" id="tI9-hN-vWE"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="剪定枝、小型家電リサイクル" id="rFd-8J-ua6"/>
+                    <tabBarItem key="tabBarItem" title="粗大ごみ処理単価表１" id="rFd-8J-ua6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2W8-2G-l6p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="402" y="1278"/>
         </scene>
-        <!--商品プラ・特定処理品目-->
+        <!--可燃ごみ-->
         <scene sceneID="g3V-Zb-cZN">
             <objects>
-                <viewController id="VoL-cH-XHe" sceneMemberID="viewController">
+                <viewController title="可燃ごみ" id="VoL-cH-XHe" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oYb-fm-ObG"/>
                         <viewControllerLayoutGuide type="bottom" id="uaj-Nj-n4r"/>
@@ -258,7 +258,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="shohin-pla-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="NUo-Lk-yd2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-kanen.png" translatesAutoresizingMaskIntoConstraints="NO" id="NUo-Lk-yd2">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -270,16 +270,16 @@
                             <constraint firstItem="NUo-Lk-yd2" firstAttribute="leading" secondItem="U7G-dN-1WH" secondAttribute="leading" id="wiE-Jr-rnh"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="商品プラ・特定処理品目" id="bhS-eN-Pld"/>
+                    <tabBarItem key="tabBarItem" title="可燃ごみ" id="bhS-eN-Pld"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hrf-hR-7Sg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1446" y="615"/>
         </scene>
-        <!--市で収集、処理できないもの1-->
+        <!--粗大ごみ処理単価表２-->
         <scene sceneID="Vfx-Zz-gfa">
             <objects>
-                <viewController id="fcF-3I-NZR" sceneMemberID="viewController">
+                <viewController title="粗大ごみ処理単価表２" id="fcF-3I-NZR" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="W6P-ns-ejw"/>
                         <viewControllerLayoutGuide type="bottom" id="CqN-l6-qqD"/>
@@ -288,7 +288,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="no-treat-list1.png" translatesAutoresizingMaskIntoConstraints="NO" id="coc-DU-aP4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-sodai3.png" translatesAutoresizingMaskIntoConstraints="NO" id="coc-DU-aP4">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -300,16 +300,16 @@
                             <constraint firstItem="coc-DU-aP4" firstAttribute="trailing" secondItem="uxe-4t-bBF" secondAttribute="trailing" id="uGx-K1-RsZ"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="市で収集、処理できないもの1" id="sUC-04-1Zw"/>
+                    <tabBarItem key="tabBarItem" title="粗大ごみ処理単価表２" id="sUC-04-1Zw"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="190-AI-C0M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="759" y="1278"/>
         </scene>
-        <!--ごみ関連施設のご案内-->
+        <!--市が収集しないもの-->
         <scene sceneID="dxu-F9-Fn5">
             <objects>
-                <viewController id="eas-vT-qMS" sceneMemberID="viewController">
+                <viewController title="市が収集しないもの" id="eas-vT-qMS" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ayf-72-Foh"/>
                         <viewControllerLayoutGuide type="bottom" id="8tv-mV-mPx"/>
@@ -318,7 +318,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="shisetsu-list.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Wu-4U-0xW">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-kaisyunashi.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Wu-4U-0xW">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -330,16 +330,16 @@
                             <constraint firstItem="7Wu-4U-0xW" firstAttribute="top" secondItem="ayf-72-Foh" secondAttribute="bottom" id="vbT-WV-jFi"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="ごみ関連施設のご案内" id="afT-u1-GBr"/>
+                    <tabBarItem key="tabBarItem" title="市が収集しないもの" id="afT-u1-GBr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qqt-IQ-hOt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1446" y="1278"/>
         </scene>
-        <!--市で収集、処理できないもの2-->
+        <!--ごみの自己搬入-->
         <scene sceneID="fl1-3u-H76">
             <objects>
-                <viewController id="5El-TC-yw5" sceneMemberID="viewController">
+                <viewController title="ごみの自己搬入" id="5El-TC-yw5" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yjc-gF-ZZS"/>
                         <viewControllerLayoutGuide type="bottom" id="4o0-vo-z8A"/>
@@ -348,7 +348,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="no-treat-list2.png" translatesAutoresizingMaskIntoConstraints="NO" id="r8V-dc-Jrv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="sashi-jikohannyu.png" translatesAutoresizingMaskIntoConstraints="NO" id="r8V-dc-Jrv">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                             </imageView>
                         </subviews>
@@ -360,7 +360,7 @@
                             <constraint firstItem="r8V-dc-Jrv" firstAttribute="trailing" secondItem="Xhy-Bz-UuI" secondAttribute="trailing" id="dC6-Xv-GZI"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="市で収集、処理できないもの2" id="0N3-RS-5hn"/>
+                    <tabBarItem key="tabBarItem" title="ごみの自己搬入" id="0N3-RS-5hn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BIM-v1-UTf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -481,7 +481,7 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="01/24(土)" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="1qV-yK-PfA">
                                 <rect key="frame" x="16" y="429" width="144" height="29"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="32"/>
                                 <color key="highlightedColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
@@ -496,7 +496,7 @@
                                     <constraint firstAttribute="height" constant="30" id="t3R-rE-KU3"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2v-cu-Gei">
@@ -507,7 +507,7 @@
                                     <constraint firstAttribute="height" constant="30" id="GhU-rw-fVo"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="funen.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZiQ-mr-hVP">
@@ -524,7 +524,7 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="01/25(日)" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="I6F-Zf-w9p">
                                 <rect key="frame" x="16" y="459" width="144" height="29"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="10D-KM-JA3"/>
                                 </constraints>
@@ -746,7 +746,7 @@
                                     <constraint firstAttribute="width" constant="70" id="oAV-4Y-fJE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSA-7u-0Nb">
@@ -757,10 +757,10 @@
                                     <constraint firstAttribute="width" constant="26" id="jwx-VT-UkA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="8blk-2015-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="mLs-Fy-YrX">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="1blk-2015-08.png" translatesAutoresizingMaskIntoConstraints="NO" id="mLs-Fy-YrX">
                                 <rect key="frame" x="6" y="70" width="308" height="444"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="435" id="ki4-ah-Xjt"/>
@@ -841,11 +841,11 @@
                                     <constraint firstAttribute="height" constant="95" id="JO3-sO-Xm1"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <imageView tag="2" contentMode="scaleToFill" image="shigen.png" translatesAutoresizingMaskIntoConstraints="NO" id="tYr-HQ-86B">
+                            <imageView tag="2" contentMode="scaleToFill" image="koshifurununo.png" translatesAutoresizingMaskIntoConstraints="NO" id="tYr-HQ-86B">
                                 <rect key="frame" x="16" y="137.5" width="141.5" height="80"/>
                             </imageView>
                             <imageView tag="3" contentMode="scaleToFill" image="kanen.png" translatesAutoresizingMaskIntoConstraints="NO" id="WCe-ys-v6q">
@@ -886,7 +886,7 @@
                                     <constraint firstAttribute="height" constant="30" id="jK2-If-i8f"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wqt-pK-Whr">
@@ -897,7 +897,7 @@
                                     <constraint firstAttribute="height" constant="30" id="rga-C2-zR7"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="　種類検索" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="imK-vP-Abn">
@@ -959,7 +959,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                     <action selector="tapTEL" destination="SnU-nH-BS8" eventType="touchUpInside" id="aWd-EG-B7g"/>
                                 </connections>
                             </button>
-                            <imageView tag="1" contentMode="scaleToFill" image="petbottle.png" translatesAutoresizingMaskIntoConstraints="NO" id="aZU-Os-XNi">
+                            <imageView tag="1" contentMode="scaleToFill" image="haiyu.png" translatesAutoresizingMaskIntoConstraints="NO" id="aZU-Os-XNi">
                                 <rect key="frame" x="16" y="54" width="141.5" height="79.5"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="自宅前" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Lw3-FO-vL3">
@@ -1094,7 +1094,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                     <constraint firstAttribute="width" constant="70" id="VlT-cu-SDp"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZyN-If-Uge">
@@ -1105,7 +1105,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                     <constraint firstAttribute="height" constant="30" id="rhG-Fz-rnK"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ty-Dx-qsd">
@@ -1391,7 +1391,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                     <constraint firstAttribute="width" constant="60" id="pAK-xB-wWP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="明後日" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8S-TT-lcJ">
@@ -1438,7 +1438,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                                     <constraint firstAttribute="height" constant="30" id="LY0-u4-ZRU"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="funen.png" translatesAutoresizingMaskIntoConstraints="NO" id="zkx-9V-hdd">
@@ -1521,7 +1521,7 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="　　　" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2D-FM-Uv7">
                                 <rect key="frame" x="248" y="429" width="50" height="24"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="69W-Ll-59l"/>
                                     <constraint firstAttribute="width" constant="50" id="c6C-BQ-HTm"/>
@@ -1784,27 +1784,89 @@ CPCfk57pm7voqbEo5pyJ5paZKQ
             </objects>
             <point key="canvasLocation" x="1723" y="-71"/>
         </scene>
+        <!--市が収集しないもの＜家電リサイクル対象機器＞-->
+        <scene sceneID="917-dp-6P3">
+            <objects>
+                <viewController title="市が収集しないもの＜家電リサイクル対象機器＞" id="4g2-jT-79b" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eyU-Ju-clm"/>
+                        <viewControllerLayoutGuide type="bottom" id="0ut-is-KlS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UU2-ec-038">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-kaisyunashi2.png" translatesAutoresizingMaskIntoConstraints="NO" id="M4K-d4-6Na">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0ut-is-KlS" firstAttribute="top" secondItem="M4K-d4-6Na" secondAttribute="bottom" id="7ux-Fk-MLa"/>
+                            <constraint firstItem="M4K-d4-6Na" firstAttribute="top" secondItem="eyU-Ju-clm" secondAttribute="bottom" id="ana-4g-4GL"/>
+                            <constraint firstItem="M4K-d4-6Na" firstAttribute="leading" secondItem="UU2-ec-038" secondAttribute="leading" id="k0g-6N-IWi"/>
+                            <constraint firstItem="M4K-d4-6Na" firstAttribute="trailing" secondItem="UU2-ec-038" secondAttribute="trailing" id="lZy-ge-YNB"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="市が収集しないもの＜家電リサイクル対象機器＞" id="E8c-Pk-eIu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fTc-CJ-iop" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1788" y="1278"/>
+        </scene>
+        <!--市が収集しないもの＜パソコン＞＜オートバイ＞-->
+        <scene sceneID="KZG-VL-duB">
+            <objects>
+                <viewController title="市が収集しないもの＜パソコン＞＜オートバイ＞" id="fc7-fy-HIf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1vf-AV-T4v"/>
+                        <viewControllerLayoutGuide type="bottom" id="dw1-vS-pMZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FHw-dt-cgQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="sashi-kaisyunashi3.png" translatesAutoresizingMaskIntoConstraints="NO" id="lTT-1X-A7r">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lTT-1X-A7r" firstAttribute="leading" secondItem="FHw-dt-cgQ" secondAttribute="leading" id="9ZY-U0-Hya"/>
+                            <constraint firstItem="dw1-vS-pMZ" firstAttribute="top" secondItem="lTT-1X-A7r" secondAttribute="bottom" id="GK8-sJ-NMV"/>
+                            <constraint firstItem="lTT-1X-A7r" firstAttribute="trailing" secondItem="FHw-dt-cgQ" secondAttribute="trailing" id="TBN-Uv-xl5"/>
+                            <constraint firstItem="lTT-1X-A7r" firstAttribute="top" secondItem="1vf-AV-T4v" secondAttribute="bottom" id="kFU-WQ-hAw"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="市が収集しないもの＜パソコン＞＜オートバイ＞" id="x0N-Db-h6C"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x6A-24-uvy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2130" y="1278"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="8blk-2015-01.png" width="1062" height="750"/>
-        <image name="can.png" width="400" height="200"/>
-        <image name="eda&amp;smallkaden-list.png" width="490" height="750"/>
-        <image name="funen-list.png" width="493" height="750"/>
-        <image name="funen.png" width="400" height="200"/>
-        <image name="kanen-list.png" width="493" height="750"/>
-        <image name="kanen.png" width="400" height="200"/>
-        <image name="no-treat-list1.png" width="1080" height="1643"/>
-        <image name="no-treat-list2.png" width="1074" height="1644"/>
-        <image name="oogata-list.png" width="493" height="750"/>
-        <image name="petbottle.png" width="400" height="200"/>
-        <image name="plastic-list.png" width="493" height="750"/>
-        <image name="plastic.png" width="400" height="200"/>
-        <image name="shigen-kobetsu-list.png" width="492" height="750"/>
-        <image name="shigen-sonota-list.png" width="491" height="750"/>
-        <image name="shigen.png" width="400" height="200"/>
-        <image name="shisetsu-list.png" width="491" height="750"/>
-        <image name="shohin-pla-list.png" width="491" height="750"/>
-        <image name="special-oogata-list.png" width="493" height="750"/>
+        <image name="1blk-2015-08.png" width="550" height="478"/>
+        <image name="can.png" width="300" height="150"/>
+        <image name="funen.png" width="300" height="150"/>
+        <image name="haiyu.png" width="300" height="150"/>
+        <image name="kanen.png" width="300" height="150"/>
+        <image name="koshifurununo.png" width="300" height="150"/>
+        <image name="plastic.png" width="300" height="150"/>
+        <image name="sashi-canbin.png" width="1240" height="1753"/>
+        <image name="sashi-funen.png" width="1240" height="1753"/>
+        <image name="sashi-haiyu.png" width="1240" height="1753"/>
+        <image name="sashi-jikohannyu.png" width="1240" height="1753"/>
+        <image name="sashi-kaisyunashi.png" width="1240" height="1753"/>
+        <image name="sashi-kaisyunashi2.png" width="1240" height="1753"/>
+        <image name="sashi-kaisyunashi3.png" width="1240" height="1753"/>
+        <image name="sashi-kanen.png" width="1240" height="1753"/>
+        <image name="sashi-koshifurununo.png" width="1240" height="1753"/>
+        <image name="sashi-plastic.png" width="1240" height="1753"/>
+        <image name="sashi-sodai.png" width="1240" height="1753"/>
+        <image name="sashi-sodai2.png" width="1240" height="1753"/>
+        <image name="sashi-sodai3.png" width="1240" height="1753"/>
+        <image name="sashi-yugai.png" width="1240" height="1753"/>
         <image name="tab_month.png" width="30" height="30"/>
         <image name="tab_search.png" width="30" height="30"/>
         <image name="tab_setting.png" width="30" height="30"/>
