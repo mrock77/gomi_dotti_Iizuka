@@ -1207,7 +1207,7 @@ CPCfk57luoTlhoU
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="2Ty-Dx-qsd">
-                                <rect key="frame" x="165" y="232" width="139" height="54"/>
+                                <rect key="frame" x="165" y="159" width="139" height="68.5"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="9"/>
                                 <state key="normal" title="徳前第1・徳前第2・徳前第3・徳前第4・西町西・向町・東町西・上本町・下本町・西町東・稲荷町・宮の下・吉原町・中本町・御幸町・東町東・リバーサイド">
@@ -1218,7 +1218,7 @@ CPCfk57luoTlhoU
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="mV0-5c-As7">
-                                <rect key="frame" x="165" y="289" width="139" height="54"/>
+                                <rect key="frame" x="165" y="230.5" width="139" height="68.5"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="21"/>
                                 <state key="normal">
@@ -1231,7 +1231,7 @@ CPCfk57luoTlhoU
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dZl-Tp-Kpa">
-                                <rect key="frame" x="165" y="403" width="139" height="54"/>
+                                <rect key="frame" x="165" y="374" width="139" height="68.5"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="19"/>
                                 <state key="normal" title="明星寺・明星寺団地・新潤野">
@@ -1242,7 +1242,7 @@ CPCfk57luoTlhoU
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dss-Yg-lF6">
-                                <rect key="frame" x="165" y="346" width="139" height="53.5"/>
+                                <rect key="frame" x="165" y="302" width="139" height="68.5"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="12"/>
                                 <state key="normal" title="片島若宮町・片島本町・片島栄町・片島勝守町・(宮の下・稲荷町の一部)">
@@ -1253,7 +1253,7 @@ CPCfk57luoTlhoU
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="CB1-qn-Kua">
-                                <rect key="frame" x="16" y="289" width="139" height="54"/>
+                                <rect key="frame" x="16" y="230.5" width="139" height="68.5"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="15"/>
                                 <state key="normal" title="新二瀬・新相田・八木山・蓮台寺・建花寺・高雄区の一部">
@@ -1264,7 +1264,7 @@ CPCfk57luoTlhoU
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="9ql-XK-yNv">
-                                <rect key="frame" x="16" y="346" width="139" height="53.5"/>
+                                <rect key="frame" x="16" y="302" width="139" height="68.5"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="12"/>
                                 <state key="normal" title="昭和通・中央通・木の花・駅通・南通・元宮・五穀神・忠隈・鶴三緒・大新・東町東の一部">
@@ -1275,7 +1275,7 @@ CPCfk57luoTlhoU
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="gpI-Hs-aup">
-                                <rect key="frame" x="16" y="403" width="139" height="54"/>
+                                <rect key="frame" x="16" y="374" width="139" height="68.5"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="20"/>
                                 <state key="normal" title="立岩">
@@ -1286,7 +1286,7 @@ CPCfk57luoTlhoU
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="mHK-Vb-xCY">
-                                <rect key="frame" x="16" y="460" width="139" height="54"/>
+                                <rect key="frame" x="16" y="445.5" width="139" height="68.5"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="10"/>
                                 <state key="normal" title="新飯塚東・新飯塚西・立岩の一部・柏の森・芳雄・旧芳雄・川島・久世ヶ浦・下三緒の一部(学頭排水場付近)">
@@ -1297,7 +1297,7 @@ CPCfk57luoTlhoU
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="62S-5b-fwr">
-                                <rect key="frame" x="165" y="460" width="139" height="54"/>
+                                <rect key="frame" x="165" y="445.5" width="139" height="68.5"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="11"/>
                                 <state key="normal" title="鯰田本町・鯰田簀子町・鯰田新町・鯰田蛭子町・鯰田栗尾・鯰田畝割・鯰田東町・鯰田柳町・鯰田上町">
@@ -1308,7 +1308,7 @@ CPCfk57luoTlhoU
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Ape-fN-ezQ">
-                                <rect key="frame" x="16" y="232" width="139" height="54"/>
+                                <rect key="frame" x="16" y="159" width="139" height="68.5"/>
                                 <color key="backgroundColor" red="0.93700396829999999" green="0.93700396829999999" blue="0.93700396829999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="17"/>
                                 <state key="normal">
@@ -1348,6 +1348,9 @@ CPCfk57luoTlhoU
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="     住所設定" lineBreakMode="tailTruncation" minimumFontSize="18" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="JrT-GT-rkE">
                                 <rect key="frame" x="16" y="20" width="288" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="Ffq-8G-yHK"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="32"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1389,6 +1392,7 @@ CPCfk57luoTlhoU
                             <constraint firstItem="mV0-5c-As7" firstAttribute="top" secondItem="2Ty-Dx-qsd" secondAttribute="bottom" constant="3" id="a5A-rd-6kB"/>
                             <constraint firstItem="fNL-Ys-iYB" firstAttribute="top" secondItem="JrT-GT-rkE" secondAttribute="bottom" constant="2" id="aQf-FA-zQm"/>
                             <constraint firstItem="CB1-qn-Kua" firstAttribute="top" secondItem="Ape-fN-ezQ" secondAttribute="bottom" constant="3" id="aT6-Li-o4T"/>
+                            <constraint firstItem="2Ty-Dx-qsd" firstAttribute="top" secondItem="igr-9k-SFW" secondAttribute="bottom" constant="5" id="bsG-AM-GSK"/>
                             <constraint firstItem="9ql-XK-yNv" firstAttribute="width" secondItem="2Ty-Dx-qsd" secondAttribute="width" id="bud-lN-K88"/>
                             <constraint firstAttribute="centerY" secondItem="Ape-fN-ezQ" secondAttribute="centerY" id="cG6-kb-FWs"/>
                             <constraint firstItem="igr-9k-SFW" firstAttribute="leading" secondItem="GqS-Cx-Dym" secondAttribute="leadingMargin" constant="-6" id="d69-o6-tYm"/>
@@ -1402,6 +1406,7 @@ CPCfk57luoTlhoU
                             <constraint firstItem="9ql-XK-yNv" firstAttribute="width" secondItem="mHK-Vb-xCY" secondAttribute="width" id="lb6-Y6-gUg"/>
                             <constraint firstItem="gpI-Hs-aup" firstAttribute="leading" secondItem="Ape-fN-ezQ" secondAttribute="leading" id="oDw-d2-da9"/>
                             <constraint firstItem="62S-5b-fwr" firstAttribute="top" secondItem="dZl-Tp-Kpa" secondAttribute="bottom" constant="3" id="oXT-Lh-4yL"/>
+                            <constraint firstItem="Ape-fN-ezQ" firstAttribute="top" secondItem="igr-9k-SFW" secondAttribute="bottom" constant="5" id="olq-9l-03c"/>
                             <constraint firstItem="62S-5b-fwr" firstAttribute="trailing" secondItem="2Ty-Dx-qsd" secondAttribute="trailing" id="ptg-0L-7Rh"/>
                             <constraint firstItem="9ql-XK-yNv" firstAttribute="width" secondItem="62S-5b-fwr" secondAttribute="width" id="q97-As-Qwi"/>
                             <constraint firstAttribute="centerY" secondItem="2Ty-Dx-qsd" secondAttribute="centerY" id="rGJ-hU-RWg"/>
