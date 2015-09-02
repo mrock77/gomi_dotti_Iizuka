@@ -25,7 +25,7 @@
     [self startLocationServices];
     _myMapView.showsUserLocation = YES;
     [_myMapView setUserTrackingMode:MKUserTrackingModeFollow animated:YES];
-    self.canDisplayBannerAds = YES; // auto add iAd banner
+//    self.canDisplayBannerAds = YES; // auto add iAd banner
 }
 
 - (void)didReceiveMemoryWarning {

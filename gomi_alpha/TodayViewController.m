@@ -42,7 +42,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.canDisplayBannerAds = YES; // auto add iAd banner
+//    self.canDisplayBannerAds = YES; // auto add iAd banner
     //[self initCurrent];
 
 }
@@ -94,12 +94,15 @@
 
 - (UIImage *)rndIcon {
     NSArray* strIcons = [NSArray arrayWithObjects:
-                     @"カン",
-                     @"プ・油・特",
-                     @"ペット",
-                     @"他資源",
-                     @"可・ビン",
-                     @"本・不・商",
+                     @"資源プラスチック",
+                     @"古紙・古布",
+                     @"有害ごみ",
+                     @"空き缶・空き瓶",
+                     @"不燃ごみ",
+                     @"可燃ごみ",
+                     @"廃食用油",
+                     @"粗大ごみ・臨時ごみ",
+                     @"市が収集しないもの",
                      nil];
     int iconTypes = (int)[strIcons count];
     

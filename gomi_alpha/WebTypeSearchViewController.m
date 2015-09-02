@@ -17,7 +17,7 @@
 @implementation WebTypeSearchViewController
 
 - (void)loadWeb {
-    NSString* strUrl = @"http://fj4.city.fujisawa.kanagawa.jp/fdust/";
+    NSString* strUrl = @"http://www.city.iizuka.lg.jp/k-shisetsusomu/kurashi/gomi/documents/katei2609.pdf#page=5";
     NSURLRequest* myRequest = [NSURLRequest requestWithURL: [NSURL URLWithString:strUrl]];
     [_webTypeSearch loadRequest:myRequest];
 }
@@ -31,7 +31,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.    
     [self loadWeb];
-    self.canDisplayBannerAds = YES; // auto add iAd banner
+//    self.canDisplayBannerAds = YES; // auto add iAd banner
 }
 
 - (void)didReceiveMemoryWarning {

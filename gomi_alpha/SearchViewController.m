@@ -43,7 +43,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self initTblBtn];
-    self.canDisplayBannerAds = YES; // auto add iAd banner
+//    self.canDisplayBannerAds = YES; // auto add iAd banner
 
 }
 
@@ -65,12 +65,15 @@
 - (void)initTblBtn {
     _tblBtn = [NSDictionary dictionaryWithObjectsAndKeys:
                // iconStr,  keyBtnTag
-               @"カン",      @4,
-               @"プ・油・特", @6,
-               @"ペット",    @1,
-               @"他資源",    @2,
-               @"可・ビン",  @3,
-               @"本・不・商", @5,
+               @"可燃ごみ"          ,@1,
+               @"空き缶・空き瓶"     ,@2,
+               @"不燃ごみ"          ,@3,
+               @"資源プラスチック"    ,@4,
+               @"有害ごみ"          ,@5,
+               @"古紙・古布"         ,@6,
+               @"廃食用油"          ,@7,
+               @"粗大ごみ・臨時ごみ"  ,@8,
+//               @"市が収集しないもの",
                nil];
 }
 
@@ -101,13 +104,32 @@
     
 }
 
-- (IBAction)tapTEL {
-    
+- (IBAction)tapTEL1 {
 //    NSURL *url = [[NSURL alloc] initWithString:@"tel:0466-23-5301"];
 //    [[UIApplication sharedApplication] openURL:url];
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:0466-23-5301"]];
-    
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:0948-22-1551"]];
 }
+- (IBAction)tapTEL2 {
+    //    NSURL *url = [[NSURL alloc] initWithString:@"tel:0466-23-5301"];
+    //    [[UIApplication sharedApplication] openURL:url];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:0948-22-0380"]];
+}
+- (IBAction)tapTEL3 {
+    //    NSURL *url = [[NSURL alloc] initWithString:@"tel:0466-23-5301"];
+    //    [[UIApplication sharedApplication] openURL:url];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:0948-72-1100"]];
+}
+- (IBAction)tapTEL4 {
+    //    NSURL *url = [[NSURL alloc] initWithString:@"tel:0466-23-5301"];
+    //    [[UIApplication sharedApplication] openURL:url];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:0948-82-1200"]];
+}
+- (IBAction)tapTEL5 {
+    //    NSURL *url = [[NSURL alloc] initWithString:@"tel:0466-23-5301"];
+    //    [[UIApplication sharedApplication] openURL:url];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:09496-2-2211"]];
+}
+
 
 - (IBAction)swipe_left:(id)sender {
     MyTabBarController *tb = (MyTabBarController*)self.tabBarController;
@@ -118,4 +140,9 @@
     MyTabBarController *tb = (MyTabBarController*)self.tabBarController;
     [tb handleSwipeRight];
 }
+//- (IBAction)jump_etctab:(id)sender {
+//    MyTabBarController *tb = (MyTabBarController*)self.tabBarController;
+//    [tb handleSwipeRight];
+//}
+
 @end

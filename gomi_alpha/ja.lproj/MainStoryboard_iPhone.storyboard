@@ -859,12 +859,12 @@
                             <imageView tag="8" contentMode="scaleToFill" image="sodai.png" translatesAutoresizingMaskIntoConstraints="NO" id="f0D-cf-6aY">
                                 <rect key="frame" x="161.5" y="227" width="141.5" height="53"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="01/20(火)" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="LxF-Ic-JFO">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="−−/−−(−)" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="LxF-Ic-JFO">
                                 <rect key="frame" x="21" y="463" width="283" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="SNw-5M-aNz"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="28"/>
                                 <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -955,7 +955,7 @@ CPCfk57poLTnlLA
                             <imageView tag="1" contentMode="scaleToFill" image="kanen.png" translatesAutoresizingMaskIntoConstraints="NO" id="aZU-Os-XNi">
                                 <rect key="frame" x="16" y="54" width="142" height="53"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="自宅前" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="Lw3-FO-vL3">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="指定袋" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="Lw3-FO-vL3">
                                 <rect key="frame" x="209" y="463" width="93" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="bOM-0i-dsE"/>
@@ -1461,7 +1461,7 @@ CPCfk57luoTlhoU
                                 </constraints>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="回収なし" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="frV-QW-HJA">
-                                <rect key="frame" x="16" y="179" width="288" height="150"/>
+                                <rect key="frame" x="16" y="122" width="288" height="207"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="50G-Mk-dik"/>
@@ -1487,16 +1487,6 @@ CPCfk57luoTlhoU
                                     <constraint firstAttribute="height" constant="90" id="VfL-vZ-hch"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="自宅前" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" minimumFontSize="10" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="32H-Lf-LMP">
-                                <rect key="frame" x="16" y="149" width="288" height="30"/>
-                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="OdD-Gt-JWe"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="40"/>
-                                <color key="textColor" red="1" green="0.19289090719999999" blue="0.27557419820000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="地区" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y1c-RW-JMh">
                                 <rect key="frame" x="264" y="20" width="40" height="30"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1556,7 +1546,10 @@ CPCfk57luoTlhoU
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="yse-Ad-ZgO">
-                                <rect key="frame" x="16" y="57" width="288" height="87"/>
+                                <rect key="frame" x="16" y="57" width="288" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="WkC-25-h7H"/>
+                                </constraints>
                                 <string key="text" base64-UTF8="YES">
 5LuK5pel44GuCOOBlOOBvw
 </string>
@@ -1613,7 +1606,7 @@ CPCfk57luoTlhoU
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="funen.png" translatesAutoresizingMaskIntoConstraints="NO" id="zkx-9V-hdd">
-                                <rect key="frame" x="16" y="179" width="288" height="150"/>
+                                <rect key="frame" x="16" y="122" width="288" height="207"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="yHg-su-4JL"/>
                                 </constraints>
@@ -1639,7 +1632,6 @@ CPCfk57luoTlhoU
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="hDn-Zh-UvM" secondAttribute="trailing" id="2fy-Dr-sXo"/>
-                            <constraint firstItem="32H-Lf-LMP" firstAttribute="leading" secondItem="ToW-0N-PeX" secondAttribute="leadingMargin" id="3Gs-Wl-qSv"/>
                             <constraint firstAttribute="trailingMargin" secondItem="4Cs-l5-wEZ" secondAttribute="trailing" constant="114" id="3k7-EV-NQf"/>
                             <constraint firstItem="aI4-XA-KOc" firstAttribute="top" secondItem="Tin-ey-V4f" secondAttribute="bottom" constant="5" id="41L-1y-AVW"/>
                             <constraint firstItem="zkx-9V-hdd" firstAttribute="bottom" secondItem="frV-QW-HJA" secondAttribute="bottom" id="5DY-Q9-6kQ"/>
@@ -1652,18 +1644,16 @@ CPCfk57luoTlhoU
                             <constraint firstItem="Dte-Dz-fia" firstAttribute="top" secondItem="Tin-ey-V4f" secondAttribute="top" id="CeN-eX-3hE"/>
                             <constraint firstItem="zkx-9V-hdd" firstAttribute="leading" secondItem="ToW-0N-PeX" secondAttribute="leadingMargin" id="Clx-aa-88J"/>
                             <constraint firstItem="hDn-Zh-UvM" firstAttribute="top" secondItem="G2D-FM-Uv7" secondAttribute="bottom" constant="6" id="Djy-px-rGQ"/>
-                            <constraint firstItem="zkx-9V-hdd" firstAttribute="top" secondItem="32H-Lf-LMP" secondAttribute="bottom" id="Fbm-1o-FQv"/>
                             <constraint firstItem="frV-QW-HJA" firstAttribute="leading" secondItem="ToW-0N-PeX" secondAttribute="leadingMargin" id="Gah-Kr-YvL"/>
                             <constraint firstItem="Dte-Dz-fia" firstAttribute="leading" secondItem="ToW-0N-PeX" secondAttribute="leadingMargin" constant="44" id="Hvu-9J-Xc3"/>
                             <constraint firstAttribute="trailingMargin" secondItem="3UJ-am-cfU" secondAttribute="trailing" constant="94" id="I0Z-S6-QdQ"/>
                             <constraint firstItem="aI4-XA-KOc" firstAttribute="leading" secondItem="ToW-0N-PeX" secondAttribute="leadingMargin" constant="94" id="JaS-EB-6Sn"/>
                             <constraint firstItem="ZxN-ba-Iby" firstAttribute="bottom" secondItem="4Cs-l5-wEZ" secondAttribute="bottom" id="KCC-yS-hvP"/>
                             <constraint firstItem="gUu-FT-akQ" firstAttribute="top" secondItem="5m2-xw-uaT" secondAttribute="bottom" constant="5" id="LWs-nV-xGF"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="32H-Lf-LMP" secondAttribute="trailing" id="LXa-GI-XtF"/>
                             <constraint firstItem="5m2-xw-uaT" firstAttribute="centerY" secondItem="Rgg-w2-Pzg" secondAttribute="centerY" id="Lku-ZB-lBn"/>
                             <constraint firstAttribute="trailingMargin" secondItem="yse-Ad-ZgO" secondAttribute="trailing" id="MEF-li-axj"/>
+                            <constraint firstItem="frV-QW-HJA" firstAttribute="top" secondItem="yse-Ad-ZgO" secondAttribute="bottom" constant="5" id="MQa-Jn-Wmk"/>
                             <constraint firstItem="yse-Ad-ZgO" firstAttribute="leading" secondItem="ToW-0N-PeX" secondAttribute="leadingMargin" id="P6T-9y-yNI"/>
-                            <constraint firstItem="32H-Lf-LMP" firstAttribute="top" secondItem="yse-Ad-ZgO" secondAttribute="bottom" constant="5" id="QKN-wr-3FZ"/>
                             <constraint firstItem="k7e-u8-FeY" firstAttribute="leading" secondItem="ToW-0N-PeX" secondAttribute="leadingMargin" id="Qyv-z4-4cG"/>
                             <constraint firstAttribute="trailingMargin" secondItem="5m2-xw-uaT" secondAttribute="trailing" constant="114" id="RgM-KF-XgX"/>
                             <constraint firstItem="pff-7l-2dR" firstAttribute="centerY" secondItem="Tin-ey-V4f" secondAttribute="centerY" id="Rlf-3t-vN1"/>
@@ -1695,6 +1685,7 @@ CPCfk57luoTlhoU
                             <constraint firstItem="Tin-ey-V4f" firstAttribute="leading" secondItem="ToW-0N-PeX" secondAttribute="leadingMargin" constant="44" id="lpA-wU-xzC"/>
                             <constraint firstItem="3UJ-am-cfU" firstAttribute="bottom" secondItem="aI4-XA-KOc" secondAttribute="bottom" id="nnM-50-2jJ"/>
                             <constraint firstItem="k7e-u8-FeY" firstAttribute="top" secondItem="541-dx-PpN" secondAttribute="bottom" id="oD4-kk-yT3"/>
+                            <constraint firstItem="zkx-9V-hdd" firstAttribute="top" secondItem="yse-Ad-ZgO" secondAttribute="bottom" constant="5" id="oNW-R7-KLR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Dte-Dz-fia" secondAttribute="trailing" constant="44" id="ohg-vy-M5r"/>
                             <constraint firstAttribute="trailingMargin" secondItem="zkx-9V-hdd" secondAttribute="trailing" id="osN-kq-QMR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ZxN-ba-Iby" secondAttribute="trailing" constant="114" id="q0u-ZA-vHm"/>
